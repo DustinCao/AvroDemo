@@ -1,0 +1,11 @@
+{
+       "namespace": "example.avro",
+	   "type": "record",
+	   "name": "UserMap",
+	   "fields": [
+	      {
+	         "name": "name",
+	         "type": {"type":"map","values":"long"}
+	      }
+	   ]
+	}

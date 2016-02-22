@@ -1,0 +1,11 @@
+{
+       "namespace": "com.infobird.entity",
+	   "type": "record",
+	   "name": "LabelEntity",
+	   "fields": [
+	      {
+	         "name": "labelMap",
+	         "type": {"type":"map","values":"string"}
+	      }
+	   ]
+	}
